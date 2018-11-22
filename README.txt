@@ -14,7 +14,7 @@ Les informations  étant bien structurées sur les pages webs, il n’y a pas é
 Pour ce qui est de la récupération des films et des acteurs, nous avons trouvé la page http://www.allocine.fr/films/ qui en répertorie certains. 
 
 
-Dans un premier temps, Beautiful Soup nous a permis de récupérer la partie du code html nous intéressant, puis nous avons utiliser scrapy afin de déterminer les entitées nommées. Nous avons ensuite récupéré celle possèdent les labels “PERSON” et “WORK_OF_ART” et avons établis des relations entre eux. Nous sommes partis du principe que toutes les entitées d’une même phrase étaient liées entre elle.
+Dans un premier temps, Beautiful Soup nous a permis de récupérer la partie du code html nous intéressant, puis nous avons utiliser scrapy afin de déterminer les entitées nommées. Nous avons ensuite récupéré celles possèdant les labels “PERSON” et “WORK_OF_ART” et avons établis des relations entre elles. Nous sommes partis du principe que toutes les entitées d’une même phrase étaient liées ensemble.
 
 
 Pour ce qui est du résultat, nous obtenons une reconnaissance des personnes correctes, mais presque aucun des noms des films. Nous avons tout de même choisis de conserver ces résultats, car nous avons réussi à récupérer de nombreuses relations pour les acteurs, comme les genres de film dans lequel ils ont jouées.
